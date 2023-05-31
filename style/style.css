@@ -1,0 +1,95 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-cyrillic_latin-regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-cyrillic_latin-italic.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-cyrillic_latin-700.woff2') format('woff2');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/roboto-v30-cyrillic_latin-900.woff2') format('woff2');
+}
+
+.page {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.page__body {
+    min-height: 100vh;
+    box-sizing: inherit;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+img,
+svg {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+ol {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+h1,
+h2,
+h3,
+p,
+figure,
+fieldset {
+    margin: 0;
+}
+
+.page__main {
+    margin: 0 auto;
+}
+
+.main {
+    max-width: 1440px;
+    padding: 0 180px;
+}
+
+.section__title {
+    font-weight: 900;
+    font-size: 36px;
+}
