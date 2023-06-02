@@ -150,6 +150,15 @@ fieldset {
     margin-bottom: 0;
 }
 
+.section__wrapper {
+    min-height: 415px;
+    margin-bottom: 30px;
+}
+
+.section__wrapper--short {
+    min-height: 279px;
+}
+
 .section__image {
     display: block;
     margin: 0 auto;
@@ -162,6 +171,7 @@ fieldset {
 
 .section__img--float-left {
     margin-right: 30px;
+    margin-bottom: 0;
     float: left;
 }
 

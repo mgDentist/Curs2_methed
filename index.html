@@ -40,25 +40,33 @@
             <section class="main__section section" id="prev-to-next">
                 <h3 class="section__title">Отступ задается от предыдущего элемента к следующему: от первого
                     ко второму, сверху вниз, слева направо.</h3>
-                <img class="section__image section__img--float-left" src="img/image_1.jpg" width="560" height="415"
-                    alt="Блок из 4-ех фотографий котов, на котором изображено свойство margin со значениями right и bottom.">
-                <p class="section__subtitle"><b>ВАЖНО:</b> <em>margin</em> всегда задают от предыдущего элемента
-                    к следующему.</p>
-                <p class="section__subtitle">Свойство <em>margin</em> необходимо только для того, чтобы отодвинуть
-                    своего
-                    соседа справа или снизу, поэтому используется <em>margin-right</em> и <em>margin-bottom</em>.</p>
-                <p class="section__subtitle">(!) Свойства <em>margin-left</em> и <em>margin-top</em> используются крайне
-                    редко.</p>
-                <p class="section__subtitle">Для <em>padding</em> верно обратное. Исключением является его применения
-                    в декоративных целях, например, для увеличения области ссылки.</p>
-                <img class="section__image section__img--float-right" src="img/image_2.jpg" width="560" height="279"
-                    alt="Схематическое изображение свойства padding со значением top.">
-                <p class="section__subtitle">Отступ внутри блока сверху или слева реализуется через <em>padding-top</em>
-                    и <em>padding-left</em> родителя.</p>
-                <p class="section__subtitle">Отступы, как правило, делают в направлении от предыдущего элемента
-                    к следующему. Так элемент не будет толкать сам себя.</p>
-                <p class="section__subtitle">Изначально элемент статичен, а его положение может меняться только под
-                    воздействием свойств других блоков или свойств родителя.</p>
+                <div class="section__wrapper">
+                    <img class="section__image section__img--float-left" src="img/image_1.jpg" width="560" height="415"
+                        alt="Блок из 4-ех фотографий котов, на котором изображено свойство margin со значениями right и bottom.">
+                    <p class="section__subtitle"><b>ВАЖНО:</b> <em>margin</em> всегда задают от предыдущего элемента
+                        к следующему.</p>
+                    <p class="section__subtitle">Свойство <em>margin</em> необходимо только для того, чтобы отодвинуть
+                        своего
+                        соседа справа или снизу, поэтому используется <em>margin-right</em> и <em>margin-bottom</em>.
+                    </p>
+                    <p class="section__subtitle">(!) Свойства <em>margin-left</em> и <em>margin-top</em> используются
+                        крайне
+                        редко.</p>
+                    <p class="section__subtitle">Для <em>padding</em> верно обратное. Исключением является его
+                        применения
+                        в декоративных целях, например, для увеличения области ссылки.</p>
+                </div>
+                <div class="section__wrapper--short">
+                    <img class="section__image section__img--float-right" src="img/image_2.jpg" width="560" height="279"
+                        alt="Схематическое изображение свойства padding со значением top.">
+                    <p class="section__subtitle">Отступ внутри блока сверху или слева реализуется через
+                        <em>padding-top</em>
+                        и <em>padding-left</em> родителя.</p>
+                    <p class="section__subtitle">Отступы, как правило, делают в направлении от предыдущего элемента
+                        к следующему. Так элемент не будет толкать сам себя.</p>
+                    <p class="section__subtitle">Изначально элемент статичен, а его положение может меняться только под
+                        воздействием свойств других блоков или свойств родителя.</p>
+                </div>
             </section>
             <section class="main__section section" id="last-elem">
                 <h3 class="section__title">Отступ задается последнему возможному элементу в DOM-дереве</h3>
